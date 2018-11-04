@@ -4,7 +4,7 @@ It's focus is on eliminating unnecessary loading of non visible images and ifram
 Only images and iframes which are visible in the viewport and it's configured offset are smoothly loaded, loading is also considered in the resize event.
 
 Progressive media is always auto initialized. It also has fallback for disabled javascript.
-You can [configure](#-configurables) ProgressiveMedia by setting up the `progressiveMediaOptions` variable
+You can [configure](#configurables) ProgressiveMedia by setting up the `progressiveMediaOptions` variable
 
 Loading process of images is heavely inspired by the [Medium](https://medium.com/) website. Here is a preview:
 
