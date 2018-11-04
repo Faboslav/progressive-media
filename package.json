@@ -1,0 +1,33 @@
+{
+  "name": "progressive-media",
+  "version": "1.0.0",
+  "description": "Fast, optimalized and lightweight library for smooth looking lazy loading of images and iframes.",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Faboslav/progressive-media"
+  },
+  "bugs": {
+    "url": "https://github.com/Faboslav/progressive-media/issues"
+  },
+  "keywords": [
+    "progressive",
+    "media",
+    "lazyload",
+    "lazyloading",
+    "smooth",
+    "lazy",
+    "load",
+    "vanilla",
+    "javascript",
+    "no-jquery",
+    "performance",
+    "image",
+    "img",
+    "iframe",
+    "blue",
+    "faboslav",
+  ],
+  "author": "Aleš Fabiánek",
+  "license": "MIT"
+}
