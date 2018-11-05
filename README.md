@@ -10,7 +10,18 @@ Loading process of images is heavely inspired by the [Medium](https://medium.com
 
 ![Yii2 Progressive Media Preview](https://i.imgur.com/rg3fBtT.gif)
 
+## Install
+Install with NPM
+```
+npm install progressive-media
+```
+
 ## Usage
+Include the following style at the start of your HTML page, right before closing the head tag.
+```html
+<link href="https://.../progressive-media.min.css" rel="stylesheet">
+```
+
 Include the following scripts at the end of your HTML page, right before closing the body tag.
 ```html
 <script>
