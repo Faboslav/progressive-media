@@ -41,6 +41,9 @@
 .progressive-media .progressive-media-image-original {
     z-index: 1;
 }
+.progressive-media noscript .progressive-media-image-original {
+    z-index: 4;
+}
 .progressive-media .progressive-media-blur {
     z-index: 3;
     -webkit-filter: blur(12px);

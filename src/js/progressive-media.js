@@ -1,8 +1,8 @@
-var progressiveMediaOptions = Object.assign((progressiveMediaOptions = typeof progressiveMediaOptions !== 'undefined')?progressiveMediaOptions:{}, {
+var progressiveMediaOptions = Object.assign({
     viewportOffset: (window.innerHeight / 2),
     throttleTime: 50,
     debounceTime: 100
-});
+}, (typeof progressiveMediaOptions !== 'undefined')?progressiveMediaOptions:{});
 
 class ProgressiveMedia {
     constructor(options) {

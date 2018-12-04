@@ -24,14 +24,12 @@ function _classCallCheck(instance, Constructor) {
 }
 
 var progressiveMediaOptions = Object.assign(
-    (progressiveMediaOptions = typeof progressiveMediaOptions !== "undefined")
-        ? progressiveMediaOptions
-        : {},
     {
         viewportOffset: window.innerHeight / 2,
         throttleTime: 50,
         debounceTime: 100
-    }
+    },
+    typeof progressiveMediaOptions !== "undefined" ? progressiveMediaOptions : {}
 );
 
 var ProgressiveMedia = (function() {

@@ -1,6 +1,6 @@
 {
   "name": "progressive-media",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Fast, optimalized and lightweight library for smooth looking lazy loading of images and iframes.",
   "scripts": {},
   "repository": {
