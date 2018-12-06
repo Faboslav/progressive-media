@@ -1,3 +1,9 @@
+## 1.0.4 December 6, 2018
+
+- Added default grey background for progressive media elements
+- Images are now not centered by default
+- Updated readme
+
 ## 1.0.3 December 4, 2018
 
 - Fixed progressiveMediaOptions object merge

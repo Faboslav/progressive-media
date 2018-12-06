@@ -3,7 +3,7 @@
 
 ProgressiveMedia is a fast, optimalized and lightweight library written in plain vanilla javascript. 
 
-It allows you to eliminating unnecessary loading of non visible images and iframes and thus speeding up the web application.
+It eliminates unnecessary loading of non visible images and iframes and thus speeding up the web application.
 
 Only images and iframes which are visible in the viewport and it's configured offset are smoothly loaded, loading is also considered in the resize event.
 
@@ -15,6 +15,8 @@ You can also easily override strength of the blur and transition(animation) for 
 Loading process of images is heavely inspired by the [Medium](https://medium.com/) website. Here is a preview:
 
 ![Yii2 Progressive Media Preview](https://i.imgur.com/rg3fBtT.gif)
+
+**Demo:** [Check out the example](https://faboslav.github.io/progressive-media-demo/)
 
 ## Install
 ```
@@ -69,7 +71,7 @@ Recommended resolution for image placeholders is maximum of 44x44px.
 ### Example of working image
 ```html
 <div class="progressive-media progressive-media-image progressive-media-unloaded" style="max-width: 392px; max-height: 260px;" data-img-src="https://source.unsplash.com/WLUHO9A_xik/392x260">
-    <div class="progressive-media-aspect" style="padding-bottom: 56.326530612245%;">
+    <div class="progressive-media-aspect" style="padding-bottom: 66.32653061%;">
         <div class="progressive-media-aspect-inner">
             <img class="progressive-media-image-placeholder progressive-media-content progressive-media-blur" src="https://source.unsplash.com/WLUHO9A_xik/44x44">
             <img class="progressive-media-image-placeholder progressive-media-image-placeholder-edge progressive-media-content" src="https://source.unsplash.com/WLUHO9A_xik/44x44">
@@ -96,7 +98,7 @@ Recommended resolution for image placeholders is maximum of 44x44px.
 
 ### Example of working iframe
 ```html
-<div class="progressive-media progressive-media-iframe progressive-media-unloaded" style="max-width: 500px; max-height: 260px;" data-src="https://www.facebook.com/plugins/page.php?href=https://www.facebook.com/facebook/&tabs=timeline&width=500&height=408&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId">
+<div class="progressive-media progressive-media-iframe progressive-media-unloaded" style="max-width: 500px; max-height: 408px;" data-src="https://www.facebook.com/plugins/page.php?href=https://www.facebook.com/facebook/&tabs=timeline&width=500&height=408&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId">
     <div class="progressive-media-aspect" style="padding-bottom: 81.6%;">
         <div class="progressive-media-aspect-inner">
             <noscript>
