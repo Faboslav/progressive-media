@@ -45,10 +45,6 @@ As said Progressive Media library is automatically initialized and used, but you
 ```javascript
 progressiveMedia.loadProgressiveMedia();
 ```
-## Options
-- `viewportOffset` - offset as number of px to top and bottom in addition to the original viewport (default is half of the viewport)
-- `throttleTime` - number in ms how often is the progressiveMedia load triggered when scrolling (throttle is used) (default is 50ms)
-- `debounceTime` - number in ms when is the progressiveMedia load after the very last resize event (debounce is used) (default is 100ms)
 
 ### Rendering images
 Recommended resolution for image placeholders is maximum of 44x44px.
@@ -108,6 +104,12 @@ Recommended resolution for image placeholders is maximum of 44x44px.
     </div>
 </div>
 ```
+
+## Options
+- `viewportOffset` - offset as number of px to top and bottom in addition to the original viewport (default is half of the viewport)
+- `throttleTime` - number in ms how often is the progressiveMedia load triggered when scrolling (throttle is used) (default is 50ms)
+- `debounceTime` - number in ms when is the progressiveMedia load after the very last resize event (debounce is used) (default is 100ms)
+
 
 ## License
 MIT
