@@ -1,3 +1,7 @@
+## 1.0.5 February 26, 2019
+
+- Fixed height scalling edge case with margin on progressive-media element
+
 ## 1.0.4 December 6, 2018
 
 - Added default grey background for progressive media elements
